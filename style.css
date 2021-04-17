@@ -144,6 +144,7 @@ button:focus {
 	padding: 30px;
 	max-width: 870px;
 }
+
 .board_header,
 .posts_container,
 .write_review_container,
@@ -453,6 +454,147 @@ div.pages_turner a.bold_arrow {
 	margin: 0 15px;
 	letter-spacing: -9px;
 	margin-left: unset;
+}
+
+/*************************announce_1 공지_공지사항*************************/
+div.announce_1_title{
+	font-size: 32px;
+	float: left;
+	padding: 20px 30px;
+}
+
+.board_header_ann{
+	border-radius: 10px;
+	padding: 10px;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+.board_header_ann h1 {
+	color: #2a2a2a;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+/************announce_2 공지_문의 및 제보, 공지_후원 정보***********/
+.content_container {
+	border: 1px solid #959695;
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 30px;
+	text-align: left;
+	font-size: 24px;
+	background: #DDDEDD;
+}
+.ann_arti{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-align: center;
+}
+
+.email{
+	padding: 30px;
+	color:#ffffff;
+	text-shadow: 1px 1px 2px #000;
+}
+
+.address{
+	padding: 30px;
+	color:#ffffff;
+	text-shadow: 1px 1px 5px #000;
+	line-height: 1.9;
+}
+/**************check_vac 백신 종류별 특성**************/
+.vac_info_container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	flex-direction: row;
+	margin-top: 30px;
+}
+
+.vac_info_box{
+	border: 1px solid #959695;
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 30px;
+	flex: 1 1 40%;
+}
+
+.vac_name{
+	text-align: center;
+	margin-left: 140px;
+	margin-right: 140px;
+	border-radius: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: #9bd377;
+
+}
+.vac_info_table{
+	margin-top: 8px;
+	border-collapse: collapse;
+	border: 1px solid red;
+	float: left;
+}
+.vac_info_table tr{
+	text-align: left;
+}
+.vac_info_table td{
+	width: 100px;
+}
+/*****************check_place.html*****************/
+/*의료위탁기관, 예방접종센터는 글 길이가 비슷해서 같은 class에서 margin값을 줌
+요양병원.요양시설은 달라서 check_place_2로 class값 줌*/
+.check_place_1{
+	text-align: left;
+	margin-left: 8px;
+	margin-right: 665px;
+	margin-bottom: 8px;
+	border-radius: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: #9bd377;
+}
+
+.check_place_2{
+	text-align: left;
+	margin-left: 8px;
+	margin-right: 620px;
+	margin-bottom: 8px;
+	border-radius: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: #9bd377;
+}
+
+.check_place_inside_container{
+	border: 1px solid #959695;
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 8px;
+	text-align: left;
+	font-size: 24px;
+}
+.para_title{
+	font-size: 20px;
+	padding-bottom: 8px;
+	font-weight: bold;
+}
+.paragraph{
+	font-size: 16px;
+	padding: 8px;
 }
 
 /******************************responsive반응**************************************/

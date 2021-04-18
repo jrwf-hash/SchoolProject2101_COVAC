@@ -282,10 +282,10 @@
 						<!--원형 그래프 넣는 곳-->
  						<section id="section_container" class="board_header_box1">
 						 	<!--원형 그래프-->
-						 	<h3>백신 접종 현황</h3><br/><br/><br/><br/><br/><br/>
-							<div class="chart-container">
-						    <div id="chartContainer" style="height: 370px; max-width: 920px; margin: 0px auto;"></div>
-					 </section>
+						 	<h3>지역별 백신 접종 현황</h3><br/><br/>
+
+						    <div id="chartContainer" style="height: 370px; max-width: 920px; margin-top: 30px; zoom:1.5;"></div>
+					 	</section>
 
 					<div id="accrue" class="table_back">
 						<body>
@@ -324,7 +324,7 @@
 							<img src="./src/assets/ad.png" alt="ad" />
 						</div>
 					</article>
-				</div>
+
 			</main>
 			<footer id="footer">
 				Copyright 2021. 1조 All pictures cannot be copied without permission.
@@ -359,30 +359,31 @@
 
 <!--원형 그래프 -->
 <script>
-	window.onload = function() {
+window.onload = function() {
 
-	var chart = new CanvasJS.Chart("chartContainer", {
+var chart = new CanvasJS.Chart("chartContainer", {
 	animationEnabled: true,
-	title: {
-		text: "백신 접종 현황"
-	},
+
 	data: [{
 		type: "pie",
 		startAngle: 240,
-		yValueFormatString: "##0.00'%'",
+		yValueFormatString: "##0.0'%'",
 		indexLabel: "{label} {y}",
 		dataPoints: [
-			{y: 79.45, label: "Google"},
-			{y: 7.31, label: "Bing"},
-			{y: 7.06, label: "Baidu"},
-			{y: 4.91, label: "Yahoo"},
-			{y: 1.26, label: "Others"}
+			{y: 25.4, label: "서울"},
+			{y: 20, label: "경기"},
+			{y: 17.5, label: "대구"},
+			{y: 10.7, label: "부산"},
+			{y: 9.6, label: "대전"},
+			{y: 7.1, label: "광주"},
+			{y: 9.6, label: "인천"}
+
 		]
 	}]
-	});
-	chart.render();
+});
+chart.render();
 
-	}
+}
 </script>
 
   <!--*****************지도 script*****************-->

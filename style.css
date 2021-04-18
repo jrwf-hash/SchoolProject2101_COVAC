@@ -932,45 +932,46 @@ div.announce_1_title{
 }
 /**************check_vac 백신 종류별 특성**************/
 .vac_info_container{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	flex-direction: row;
 	margin-top: 30px;
+	height: 700px;
+	margin-right: -180px;
 }
 
 .vac_info_box{
+	float: left;
+	margin: 5px;
+	width: 40%;
 	border: 1px solid #959695;
 	border-radius: 10px;
 	padding: 10px;
-	text-align: center;
-	margin-bottom: 30px;
-	flex: 1 1 40%;
+	text-align: left;
 }
 
 .vac_name{
+	font-size: 20px;
 	text-align: center;
-	margin-left: 140px;
-	margin-right: 140px;
 	border-radius: 8px;
+	background: #9bd377;
 	padding-top: 8px;
 	padding-bottom: 8px;
-	padding-left: 20px;
-	padding-right: 20px;
-	background: #9bd377;
+	margin-left: 100px;
+	margin-right: 100px;
+}
 
-}
 .vac_info_table{
-	margin-top: 8px;
+	height: 290px;
 	border-collapse: collapse;
-	border: 1px solid red;
-	float: left;
-}
-.vac_info_table tr{
 	text-align: left;
+	margin-top: 10px;
 }
+
+.vac_info_table tr{
+	line-height: 2.5;
+}
+
 .vac_info_table td{
-	width: 100px;
+	width: 200px;
+	text-align: left;
 }
 /*****************check_place.html*****************/
 /*의료위탁기관, 예방접종센터는 글 길이가 비슷해서 같은 class에서 margin값을 줌

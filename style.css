@@ -104,6 +104,13 @@ button:focus {
 #main .main_content_wrapper article .ad_wrapper img {
 	width: 870px;
 }
+
+.ad_wrapper_mainpage{
+	margin-top: 30px;
+	width: 870px;
+	padding-left: 35px;
+}
+
 #nav {
 	margin-right: 70px;
 	width: 240px;
@@ -262,7 +269,7 @@ Layer 3
 	width: 50px;
   height: 50px;
   margin-left: 310px;
-	margin-top: 400px;
+	margin-top: 390px;
 	z-index: 3;
 }
 .m55{
@@ -297,8 +304,8 @@ Layer 3
 	text-align: center;
 	width: 50px;
   height: 50px;
-  margin-left: 330px;
-	margin-top: 180px;
+  margin-left: 350px;
+	margin-top: 170px;
 	z-index: 7;
 }
 .m50{
@@ -352,7 +359,7 @@ Layer 3
 	width: 50px;
   height: 50px;
   margin-left: 360px;
-	margin-top: 300px;
+	margin-top: 320px;
 	z-index: 13;
 }
 

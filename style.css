@@ -106,7 +106,7 @@ button:focus {
 }
 
 .ad_wrapper_mainpage{
-	margin-top: 30px;
+	margin-top: -30px;
 	width: 870px;
 	padding-left: 35px;
 }

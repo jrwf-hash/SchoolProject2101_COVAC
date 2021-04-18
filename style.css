@@ -179,7 +179,238 @@ button:focus {
 
 	line-height: 35px;
 }
+/*******************index.html 메인페이지****************/
+/*메인_지도_style*/
+.list0 { clear:both; position: relative; z-index: 1; top: -35px; left: -5px; }
+.list1 { clear:both; position: absolute; z-index: 1; top: 260px; left: 20px; }
+.list2 { clear:both; position: absolute; z-index: 2; top: 215px; left: 52px; }
+.list3 { clear:both; position: absolute; z-index: 3; top: 232px; left: 115px; }
+.list4 { clear:both; position: absolute; z-index: 4; top: 050px; left: 88px; }
+.list5 { clear:both; position: absolute; z-index: 5; top: 154px; left: 35px; }
+.list6 { clear:both; position: absolute; z-index: 6; top: 074px; left: 63px; }
+.list7 { clear:both; position: absolute; z-index: 7; top: 143px; left: 98px; }
+.list8 { clear:both; position: absolute; z-index: 8; top: 147px; left: 128px; }
+.list9 { clear:both; position: absolute; z-index: 9; top: 368px; left: 40px; }
+.list10 { clear:both; position: absolute; z-index: 10; top: 112px; left: 72px; }
+.list11 { clear:both; position: absolute; z-index: 11; top: 101px; left: 39px; }
+.list12 { clear:both; position: absolute; z-index: 12; top: 192px; left: 96px; }
+.list13 { clear:both; position: absolute; z-index: 13; top: 275px; left: 62px; }
+.list14 { clear:both; position: absolute; z-index: 14; top: 223px; left: 157px; }
+.list15 { clear:both; position: absolute; z-index: 15; top: 242px; left: 189px; }
+.list16 { clear:both; position: absolute; z-index: 16; top: 263px; left: 179px; }
 
+.m61{
+	position: absolute;
+	text-align: center;
+	width: 20px;
+  height: 30px;
+  margin-left: 360px;
+	margin-top: 410px;
+  padding: 9px 16px 4px 10px;
+  border-radius: 15.5px;
+  background-color: #ffffff;
+	z-index: 2;
+}
+
+/*************** bar chart *******************/
+#barChart{
+/*   background-color:rgba(255,255,255,0.1); */
+  border-radius: 6px;
+/*   Check out the fancy shadow  on this one */
+
+}
+/*************** pie chart *******************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+@keyframes bake-pie {
+  from {
+    transform: rotate(0deg) translate3d(0,0,0);
+  }
+}
+.Piebody {
+  font-family: "Open Sans", Arial;
+}
+
+.pieBody {
+  width: 500px;
+  margin: 50px auto;
+}
+
+.pieID {
+  display: inline-block;
+  vertical-align: top;
+}
+.pie {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  margin: 0 30px 30px 0;
+}
+.pie::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  height: 100px;
+  background: #EEE;
+  border-radius: 50%;
+  top: 50px;
+  left: 50px;
+}
+.pie::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: rgba(0,0,0,0.1);
+  border-radius: 50%;
+  box-shadow: 0 0 3px 4px rgba(0,0,0,0.1);
+  margin: 220px auto;
+}
+.slice {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  clip: rect(0px, 200px, 200px, 100px);
+  animation: bake-pie 1s;
+}
+.slice span {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  clip: rect(0px, 200px, 200px, 100px);
+}
+.legend {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background: #FFF;
+  padding: 15px;
+  font-size: 13px;
+	text-align: center;
+  box-shadow: 1px 1px 0 #DDD,
+              2px 2px 0 #BBB;
+}
+.legend li {
+  width: 110px;
+  height: 1.25em;
+  margin-bottom: 0.7em;
+  padding-left: 0.5em;
+  border-left: 1.25em solid black;
+	text-align: center;
+}
+.legend em {
+  font-style: normal;
+	text-align: center;
+}
+.legend span {
+  float: right;
+	text-align: center;
+}
+
+.board_header_box2 { /*첫번째 박스*/
+	width: 872px;
+  height: 872px;
+  margin: 0px 0px 43px 0px;
+  padding: 36px 60px 64px 60px;
+	box-shadow: 1.1px 2.8px 7px 0 rgba(0, 0, 0, 0.3);
+	background-color: #ffffff;
+	text-align: center;
+}
+
+.board_header_box { /*두번째 박스*/
+	width: 872px;
+	height: 872px;
+	margin: 43px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	box-shadow: 1.1px 2.8px 7px 0 rgba(0, 0, 0, 0.3);
+	background-color: #ffffff;
+	text-align: center;
+}
+
+.board_header_box1 { /*세번째 박스 */
+	width: 872px;
+	height: 872px;
+	margin: 43px 0px 0px 73px;
+	padding: 29px 44px 79px 45px;
+	box-shadow: 1.1px 2.8px 7px 0 rgba(0, 0, 0, 0.3);
+	background-color: #ffffff;
+	text-align: center;
+	float: left;
+}
+
+#accrue { /*테이블 */
+	background-color: #fff;
+	width: 872px;
+  height: 329px;
+  margin: 43px 0 74px 73px;
+  padding: 24px 85px 149px 75px;
+  box-shadow: 1.1px 2.8px 7px 0 rgba(0, 0, 0, 0.3);
+	float: left;
+	text-align: center;
+}
+
+.table_back { /*테이블*/
+	/* width: 872px;
+	height: 329px; */
+	background-color: #fff;
+	box-shadow: 1.1px 2.8px 7px 0 rgba(0, 0, 0, 0.3);
+	padding: 30px;
+	margin: 43px 0px 43px 63px;
+}
+#dropdown_button1{ /* 전체 버튼*/
+ width: 109px;
+ height: 40px;
+ /* margin: 0 373px 54px 21px; */
+ padding: 9px 12px 9px 13px;
+ float: left;
+}
+#dropdown_button2{ /*백신 버튼*/
+	width: 109px;
+	height: 40px;
+	/* margin: 0 15px 54px 371px; */
+	padding: 9px 12px 9px 13px;
+
+}
+#dropdown_button3{ /*기간 버튼*/
+	width: 109px;
+  height: 40px;
+  padding: 0px 12px 9px 13px;
+	float: right;
+}
+
+.circle{ /*누적 현황 빨간색 원*/
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: blue;
+	font-size: 15px;
+	text-align: center;
+	font-family: "MalgunGothic", sans-serif, "Roboto";
+	color: white;
+	margin: 0 0 0 0;
+	padding: 0 0 0 1px;
+	display: inline-block;
+}
+.circle2 { /*누적 현황 파란색 원*/
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: red;
+	font-size: 15px;
+	text-align: center;
+	font-family: "MalgunGothic", sans-serif, "Roboto";
+	color: white;
+	margin: 0 0 0 0;
+	padding: 0 0 0 1px;
+	display: inline-block;
+}
 /********************************** 4.html ************************************/
 
 .section_review_posts .posts_container table {
@@ -596,7 +827,16 @@ div.announce_1_title{
 	font-size: 16px;
 	padding: 8px;
 }
+/*check_vid.html 바로알기_백신동영상*/
 
+.check_vid_container{
+
+}
+.main_video{
+
+	display: flex;
+	justify-content: center;
+}
 /******************************responsive반응**************************************/
 * {
 	box-sizing: border-box;

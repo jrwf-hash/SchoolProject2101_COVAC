@@ -183,6 +183,41 @@ button:focus {
 }
 /*******************index.html 메인페이지****************/
 /*메인_지도_style*/
+
+/*
+z-index 순서
+가장 아래(사용자로부터 가장 멀다)
+...
+Layer -3
+Layer -2
+Layer -1
+Layer 0 기본 렌더링 레이어
+Layer 1
+Layer 2
+Layer 3
+...
+가장 위(사용자로부터 가장 가깝다)
+*/
+
+/*메인 지도 지역 순서(.list0 ~ 16)
+61 - 전남
+63 - 전북
+55 - 경남
+33 - 강원
+41 - 충남
+31 - 경기
+50 - 충북
+54 - 경북
+64 - 제주
+02 - 서울
+32 - 인천
+42 - 대전
+62 - 광주
+53 - 대구
+52 - 울산
+51 - 부산
+*/
+
 .list0 { clear:both; position: relative; z-index: 1; top: -35px; left: -5px; }
 .list1 { clear:both; position: absolute; z-index: 1; top: 260px; left: 20px; }
 .list2 { clear:both; position: absolute; z-index: 2; top: 215px; left: 52px; }
@@ -213,6 +248,188 @@ button:focus {
   background-color: #ffffff;
 	z-index: 2;
 }
+.m63{
+	position: absolute;
+	text-align: center;
+	width: 20px;
+  height: 30px;
+  margin-left: 360px;
+	margin-top: 410px;
+  padding: 9px 16px 4px 10px;
+  border-radius: 15.5px;
+  background-color: #ffffff;
+	z-index: 3;
+}
+.m55{
+	position: absolute;
+	text-align: center;
+	width: 20px;
+  height: 30px;
+  margin-left: 360px;
+	margin-top: 410px;
+  padding: 9px 16px 4px 10px;
+  border-radius: 15.5px;
+  background-color: #ffffff;
+	z-index: 4;
+}
+.m33{
+	position: absolute;
+	text-align: center;
+	width: 20px;
+  height: 30px;
+  margin-left: 360px;
+	margin-top: 410px;
+  padding: 9px 16px 4px 10px;
+  border-radius: 15.5px;
+  background-color: #ffffff;
+	z-index: 5;
+}
+.m41{
+	position: absolute;
+	text-align: center;
+	width: 20px;
+  height: 30px;
+  margin-left: 360px;
+	margin-top: 410px;
+  padding: 9px 16px 4px 10px;
+  border-radius: 15.5px;
+  background-color: #ffffff;
+	z-index: 6;
+}
+.m31{
+	position: absolute;
+	text-align: center;
+	width: 20px;
+  height: 30px;
+  margin-left: 360px;
+	margin-top: 410px;
+  padding: 9px 16px 4px 10px;
+  border-radius: 15.5px;
+  background-color: #ffffff;
+	z-index: 7;
+}
+.m50{
+	position: absolute;
+	text-align: center;
+	width: 20px;
+  height: 30px;
+  margin-left: 360px;
+	margin-top: 410px;
+  padding: 9px 16px 4px 10px;
+  border-radius: 15.5px;
+  background-color: #ffffff;
+	z-index: 8;
+}
+.m54{
+	position: absolute;
+	text-align: center;
+	width: 20px;
+  height: 30px;
+  margin-left: 360px;
+	margin-top: 410px;
+  padding: 9px 16px 4px 10px;
+  border-radius: 15.5px;
+  background-color: #ffffff;
+	z-index: 9;
+}
+.m64{
+	position: absolute;
+	text-align: center;
+	width: 20px;
+  height: 30px;
+  margin-left: 360px;
+	margin-top: 410px;
+  padding: 9px 16px 4px 10px;
+  border-radius: 15.5px;
+  background-color: #ffffff;
+	z-index: 10;
+}
+.m02{
+	position: absolute;
+	text-align: center;
+	width: 20px;
+  height: 30px;
+  margin-left: 360px;
+	margin-top: 410px;
+  padding: 9px 16px 4px 10px;
+  border-radius: 15.5px;
+  background-color: #ffffff;
+	z-index: 11;
+}
+.m32{
+	position: absolute;
+	text-align: center;
+	width: 20px;
+  height: 30px;
+  margin-left: 360px;
+	margin-top: 410px;
+  padding: 9px 16px 4px 10px;
+  border-radius: 15.5px;
+  background-color: #ffffff;
+	z-index: 12;
+}
+.m42{
+	position: absolute;
+	text-align: center;
+	width: 20px;
+  height: 30px;
+  margin-left: 360px;
+	margin-top: 410px;
+  padding: 9px 16px 4px 10px;
+  border-radius: 15.5px;
+  background-color: #ffffff;
+	z-index: 13;
+}
+.m62{
+	position: absolute;
+	text-align: center;
+	width: 20px;
+  height: 30px;
+  margin-left: 360px;
+	margin-top: 410px;
+  padding: 9px 16px 4px 10px;
+  border-radius: 15.5px;
+  background-color: #ffffff;
+	z-index: 14;
+}
+.m53{
+	position: absolute;
+	text-align: center;
+	width: 20px;
+  height: 30px;
+  margin-left: 360px;
+	margin-top: 410px;
+  padding: 9px 16px 4px 10px;
+  border-radius: 15.5px;
+  background-color: #ffffff;
+	z-index: 15;
+}
+.m52{
+	position: absolute;
+	text-align: center;
+	width: 20px;
+  height: 30px;
+  margin-left: 360px;
+	margin-top: 410px;
+  padding: 9px 16px 4px 10px;
+  border-radius: 15.5px;
+  background-color: #ffffff;
+	z-index: 16;
+}
+.m51{
+	position: absolute;
+	text-align: center;
+	width: 20px;
+  height: 30px;
+  margin-left: 360px;
+	margin-top: 410px;
+  padding: 9px 16px 4px 10px;
+  border-radius: 15.5px;
+  background-color: #ffffff;
+	z-index: 17;
+}
+
+
 
 /*************** bar chart *******************/
 #barChart{

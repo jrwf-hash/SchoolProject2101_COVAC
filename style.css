@@ -735,6 +735,15 @@ Layer 3
 	border-radius: 10px;
 }
 
+.btn_write_4_1{
+	border: 1px solid #959695;
+	color: #606060;
+	border-radius: 8px;
+	font-size: 18px;
+	padding: 2px 5px;
+	margin-left: 720px;
+}
+
 /**************************** 4-2.html ***************************************/
 
 .write_review_container {
@@ -1036,7 +1045,7 @@ div.announce_1_title{
 }
 
 .sub_videos{
-	
+
 	border-radius: 10px;
 	padding: 10px;
 	text-align: center;

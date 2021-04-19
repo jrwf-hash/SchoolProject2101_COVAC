@@ -124,8 +124,15 @@ button:focus {
 	-webkit-box-shadow: 2px 2px 5px 0pxrgba (0, 0, 0, 0.2);
 	-moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
 }
+
+#nav ul li a:hover{
+font-weight: bold;
+}
+
 #nav ul li:hover {
 	cursor: pointer;
+	text-decoration: none;
+
 }
 #nav ul li div,
 #nav ul li a {
@@ -156,6 +163,7 @@ button:focus {
 }
 #nav ul.low_depth li a:hover {
 	color: #fff;
+	text-decoration: none;
 }
 #section_container {
 	background-color: #fff;
